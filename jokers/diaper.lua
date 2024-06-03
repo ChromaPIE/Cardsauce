@@ -1,8 +1,9 @@
 local jokerInfo = {
 	name = 'Diaper Joker [WIP]',
+	dispname = '尿不湿小丑（未完成）',
 	config = {},
 	text = {
-		"idfk",
+		"我他妈咋知道",
 	},
 	rarity = 1,
 	cost = 0,

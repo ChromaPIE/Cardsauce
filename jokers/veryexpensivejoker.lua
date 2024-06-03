@@ -1,11 +1,12 @@
 local jokerInfo = {
 	name = 'Very Expensive Joker [WIP]',
+	dispname = '天价小丑（未完成）',
 	config = {},
 	text = {
-		"{X:mult,C:white}X0.5{} Mult for every {C:money}$10{}",
-		"spent on this Joker, spend all",
-		"{C:attention}money{} buying this",
-		"{C:inactive}(Currently {}{X:mult,C:white}X#1#{} {C:inactive}Mult){}",
+		"购买本牌将耗尽你的{C:attention}资金",
+		"所付金额每有{C:money}$10",
+		"本牌获得{X:mult,C:white}X0.5{}倍率",
+		"{C:inactive}（当前为{X:mult,C:white} X#1# {C:inactive}倍率）",
 	},
 	rarity = 2,
 	cost = 0,

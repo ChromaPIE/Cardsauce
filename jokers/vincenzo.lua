@@ -1,10 +1,10 @@
 local jokerInfo = {
 	name = 'Vincenzo',
+	dispname = '文森佐',
 	config = {},
 	text = {
-		"When {C:attention}Boss Blind{} is",
-		"defeated, create a",
-		"{C:dark_edition}Negative{} {C:attention}Misprint Joker{}",
+		"击败{C:attention}Boss盲注{}时",
+		"生成一张{C:dark_edition}负片{C:attention}印错小丑",
 	},
 	rarity = 4,
 	cost = 20,

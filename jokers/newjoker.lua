@@ -1,10 +1,10 @@
 local jokerInfo = {
 	name = 'The NEW Joker!',
+	dispname = '新小丑！',
 	config = {},
 	text = {
-		"Played cards with an",
-		"{C:attention}Enhancement{} give {C:mult}+#1#{} Mult",
-		"when scored",
+		"打出的{C:attention}增强{}卡牌",
+		"在计分时给予{C:mult}+#1#{}倍率"
 	},
 	rarity = 1,
 	cost = 4,

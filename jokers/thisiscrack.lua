@@ -1,12 +1,13 @@
 local jokerInfo = {
 	name = 'This Is Crack [WIP]',
+	dispname = '掺东西了（未完成）',
 	config = {},
 	text = {
-		"This Joker gains {X:mult,C:white}X0.1{} Mult",
-		"per {C:attention}consecutive{} hand played",
-		"of the {C:attention}same type{}",
-		"{C:inactive}(Currently {}{X:mult,C:white}X#1#{} {C:inactive}Mult){}",
-		"{C:inactive}(Current hand: {}{C:attention}#2#{}{C:inactive}){}",
+		"连续打出{C:attention}同一牌型{}时",
+		"本牌获得{X:mult,C:white}X0.1{}倍率",
+		"中断将重置倍率",
+		"{C:inactive}（当前为{X:mult,C:white}X#1#{C:inactive}倍率）",
+		"{C:inactive}（当前牌型：{C:attention}#2#{C:inactive}）"
 	},
 	rarity = 3,
 	cost = 8,
@@ -16,13 +17,13 @@ local jokerInfo = {
 }
 
 function jokerInfo.locDef(self)
-	return { self.ability.extra.x_mult, self.ability.extra.crack_hand }
+	return { self.ability.extra.x_mult, self.ability.extra.crack_hand[1] }
 end
 
 function jokerInfo.init(self)
 	self.ability.extra = {
 		x_mult = 1,
-		crack_hand = {"None"} --replace with previous hand?
+		crack_hand = {"无"} --replace with previous hand?
 	}
 end
 

@@ -1,10 +1,10 @@
 local jokerInfo = {
 	name = 'Two-Faced Joker [WIP]',
+	dispname = '二皮脸小丑（未完成）',
 	config = {},
 	text = {
-		"Each played {C:attention}Ace{} becomes",
-		"a {C:attention}2{}, each played {C:attention}2{}",
-		"becomes an {C:attention}Ace{}",
+		"{C:attention}A{}在打出时均变为{C:attention}2",
+		"{C:attention}2{}在打出时均变为{C:attention}A"
 	},
 	rarity = 1,
 	cost = 4,

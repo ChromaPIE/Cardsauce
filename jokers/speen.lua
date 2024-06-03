@@ -25,11 +25,11 @@ end
 
 local jokerInfo = {
 	name = 'SPEEEEEEN',
+	dispname = '转————',
 	config = {},
 	text = {
-		"Create a {C:purple}Wheel of Fortune{} card",
-		"when {C:attention}rerolling{} in the shop",
-		"{C:inactive}(Must have room){}",
+		"{C:attention}重掷{}时生成一张{C:purple}命运之轮",
+		"{C:inactive}（必须有空间）",
 	},
 	rarity = 1,
 	cost = 6,

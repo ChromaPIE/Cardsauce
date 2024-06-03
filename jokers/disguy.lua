@@ -1,10 +1,10 @@
 local jokerInfo = {
 	name = 'DIS JOAKERRR',
+	dispname = '介锅扫糗！！',
 	config = {},
 	text = {
-		"eACH SKOARD DEE EMC {C:attention}2{}",
-		"OR BERSONA {C:attention}5{}",
-		"GAET RANDUM {C:attention}EHANCEMAENT{}",
+		"买姜打出的{C:attention}2{}和{C:attention}5",
+		"在计翻C随Z获得一过{C:attention}簪藏",
 	},
 	rarity = 1,
 	cost = 6,
@@ -37,8 +37,8 @@ function jokerInfo.calculate(self, context)
 			[8] = G.P_CENTERS.m_lucky,
 		}
 		local messages = {
-			[1] = "BLS BLAY GAME BINTY!!!",
-			[2] = "ONLY 20 MINOOT!!!",
+			[1] = "玩游C啦，BINTY！！！",
+			[2] = "还有饿C翻宗啦！！！",
 		}
 		for k, v in ipairs(context.scoring_hand) do --maybe swap this out with context.full_hand? -dps
 			if v:get_id() == 2 or v:get_id() == 5 then 

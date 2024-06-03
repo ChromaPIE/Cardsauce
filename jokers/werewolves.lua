@@ -1,10 +1,11 @@
 local jokerInfo = {
 	name = 'That\'s Werewolves [WIP]',
+	dispname = '狼人来辣！',
 	config = {},
 	text = {
-		"{X:mult,C:white}X3{} Mult, but",
-		"cannot play hands",
-		"containing a {C:attention}Flush{}",
+		"{X:mult,C:white}X3{}倍率",
+		"但包含{C:attention}同花",
+		"的出牌将不被允许"
 	},
 	rarity = 2,
 	cost = 7,
