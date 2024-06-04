@@ -1,10 +1,11 @@
 local jokerInfo = {
 	name = 'Quarterdumb',
+	dispname = '五毛呆瓜',
 	config = {},
 	text = {
-		"{C:green}#1# in 2{} chance to gain {C:blue}+1{} Hand",
-		"this {C:attention}Blind{} if played hand",
-		"contains a {C:attention}Flush{}",
+		"若打出的牌包含{C:attention}同花",
+		"有{C:green}#1#/2{}的几率",
+		"在本{C:attention}盲注{}内{C:blue}+1{}出牌次数"
 	},
 	rarity = 4,
 	cost = 20,
