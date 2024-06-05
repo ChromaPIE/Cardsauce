@@ -1,9 +1,11 @@
 local jokerInfo = {
 	name = 'Pivyot',
+	dispname = '中心人物',
 	config = {},
 	text = {
-		"{C:green}#1# in 2{} chance to upgrade",
-		"level of played {C:attention}High Card{}",
+		"有{C:green}#1#/2{}的几率",
+		"在打出{C:attention}高牌{}时",
+		"提升其等级"
 	},
 	rarity = 1,
 	cost = 5,

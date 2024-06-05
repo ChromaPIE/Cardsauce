@@ -1,10 +1,10 @@
 local jokerInfo = {
-	name = 'Bunch Of Jokers',
+	name = '一大堆小丑',
 	config = {},
 	text = {
-		"Create a {C:purple}Judgement{} card",
-		"when {C:attention}Blind{} is selected",
-		"{C:inactive}(Must have room){}",
+		"选择{C:attention}盲注{}时",
+		"生成一张{C:purple}审判",
+		"{C:inactive}（必须有空位）"
 		--todo: add judgement side text
 	},
 	rarity = 1,
