@@ -1,5 +1,6 @@
 local jokerInfo = {
-	name = '一大堆小丑',
+	name = 'Bunch Of Jokers',
+	dispname = '一大堆小丑',
 	config = {},
 	text = {
 		"选择{C:attention}盲注{}时",
@@ -40,7 +41,7 @@ function jokerInfo.calculate(self, context)
 						G.GAME.consumeable_buffer = 0
 						return true
 					end}))   
-					card_eval_status_text(context.blueprint_card or self, 'extra', nil, nil, nil, {message = "+1 Judgement", colour = G.C.PURPLE})                       
+					card_eval_status_text(context.blueprint_card or self, 'extra', nil, nil, nil, {message = "+1审判", colour = G.C.PURPLE})                       
 				return true
 			end)}))
 	end

@@ -1,10 +1,10 @@
 local jokerInfo = {
 	name = 'Masked Joker',
+	dispname = '面甲小丑',
 	config = {},
 	text = {
-		"If played hand is all",
-		"{C:attention}Steel Cards{}, each gives",
-		"{C:chips}+#1#{} Chips and {C:mult}+#2#{} Mult",
+		"若打出的牌均为{C:attention}钢铁牌",
+		"每张给予{C:chips}+#1#{}筹码和{C:mult}+#2#{}倍率"
 	},
 	rarity = 2,
 	cost = 7,
