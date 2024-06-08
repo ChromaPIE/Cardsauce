@@ -1,9 +1,10 @@
 local jokerInfo = {
 	name = 'Meat',
+	dispname = '大肉虫',
 	config = {},
 	text = {
-		"Add a random {C:attention}seal{} to the",
-		"next {C:attention}#1# High Cards{} scored"
+		"为下{C:attention}#1#{}手高牌中计分的牌",
+		"随机打上{C:attention}蜡封"
 	},
 	rarity = 1,
 	cost = 5,
