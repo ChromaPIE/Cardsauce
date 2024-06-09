@@ -34,7 +34,7 @@ local conf_cardsauce = {
 		-- 'veryexpensivejoker',
 		-- 'sohappy',
 		'maskedjoker',
-		-- 'thisiscrack',
+		'thisiscrack',
 		-- 'charity',
 		-- 'pepsecret',
 		-- 'odio0',
