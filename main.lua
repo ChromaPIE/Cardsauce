@@ -83,30 +83,28 @@ function SMODS.INIT.Cardsauce()
 
 
 	G.localization.descriptions.Other["guestartist1"] = {
-			name = "Guest Artist",
+			name = "客座画师",
 			text = {
-				"{E:1}SagaciousCejai{}"
+				"{E:1}SagaciousCejai"
 			},
 		}
 
 	G.localization.descriptions.Other["guestartist2"] = {
-			name = "Guest Coder",
+			name = "客座代码作者",
 			text = {
-			  "{E:1}DPS2004{}"
+			  "{E:1}DPS2004"
 			},
 	}
 	G.localization.descriptions.Other["guestartist3"] = {
-		name = "Guest Coder",
+		name = "客座代码作者",
 		text = {
-		  "{E:1}Nether{}"
+		  "{E:1}Nether"
 		},
 	}
 	G.localization.descriptions.Other["diapernote"] = {
-		name = "Author's Note",
+		name = "作者注：",
 		text = {
-		  "I'm not drawing",
-		  "this one.",
-		  "Fuck you."
+		  "我他妈画这个干嘛"
 		},
 	}
 	G.localization.descriptions.Other["rogernote"] = {
@@ -118,20 +116,20 @@ function SMODS.INIT.Cardsauce()
 	}
 	--fix compatibility with G.GAME.probabilities.normal later
 	G.localization.descriptions.Other["wheel2"] = {
-		name = "The Wheel of Fortune",
+		name = "命运之轮",
         text = {
-            "{C:green}1 in 4{} chance to add",
-            "{C:dark_edition}Foil{}, {C:dark_edition}Holographic{}, or",
-            "{C:dark_edition}Polychrome{} edition",
-            "to a random {C:attention}Joker"
+            "有{C:green}1/4{}的几率",
+            "为随机一张{C:attention}小丑牌",
+            "添加{C:dark_edition}闪箔{}、{C:dark_edition}镭射{}",
+            "或{C:dark_edition}多彩{}版本"
         },
 	}
 	
 	
 	--functions that are used by many cards go here.
 
-	G.localization.descriptions.Blind.bl_wall.text = {"THAT'S THE WALL BROTHER"}
-	G.localization.descriptions.Blind.bl_final_vessel.text = {"HEY WALL"}
+	G.localization.descriptions.Blind.bl_wall.text = {"墙来了，哥们儿！"}
+	G.localization.descriptions.Blind.bl_final_vessel.text = {"哈喽，墙！"}
 
 	localizations = {}
 	function mod.addLocalization(key,str)
