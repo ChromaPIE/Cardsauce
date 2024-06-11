@@ -101,6 +101,18 @@ function SMODS.INIT.Cardsauce()
 		  "{E:1}Nether"
 		},
 	}
+	G.localization.descriptions.Other["guestartist4"] = {
+		name = "Guest Coder",
+		text = {
+		  "{E:1}Mysthaps{}"
+		},
+	}
+	G.localization.descriptions.Other["guestartist5"] = {
+		name = "Voice Acting",
+		text = {
+		  "{E:1}AmtraxVA{}"
+		},
+	}
 	G.localization.descriptions.Other["diapernote"] = {
 		name = "作者注：",
 		text = {
@@ -143,6 +155,27 @@ function SMODS.INIT.Cardsauce()
 			end
 		end
 		return nil
+	end
+
+	
+	G.FUNCS.can_discard = function(e)
+		if next(find_joker('Grey Joker')) then
+			if G.GAME.current_round.discards_left <= 0 or #G.hand.highlighted <= 4 then 
+				e.config.colour = G.C.UI.BACKGROUND_INACTIVE
+				e.config.button = nil
+			else
+				e.config.colour = G.C.RED
+				e.config.button = 'discard_cards_from_highlighted'
+			end
+		else
+			if G.GAME.current_round.discards_left <= 0 or #G.hand.highlighted <= 0 then 
+				e.config.colour = G.C.UI.BACKGROUND_INACTIVE
+				e.config.button = nil
+			else
+				e.config.colour = G.C.RED
+				e.config.button = 'discard_cards_from_highlighted'
+			end
+		end
 	end
 	
 	local jokerUpdates = {}
