@@ -1,11 +1,12 @@
 local jokerInfo = {
 	name = 'PAC-MAN Incident',
+	dispname = '吃豆恶兽',
 	config = {},
 	text = {
-		"This Joker gains {C:mult}+5{} Mult if",
-        "round ends with your chips",
-        "within {C:attention}10%{} of the {C:attention}Blind{}",
-        "{C:inactive}(Currently {}{C:mult}+#1#{} {C:inactive}Mult){}",
+        "以最低要求{C:attention}110%{}以内",
+		"的得分击败{C:attention}盲注{}时",
+		"本牌获得{C:mult}+5{}倍率",
+        "{C:inactive}（当前为{C:mult}+#1#{C:inactive}倍率）"
 	},
 	rarity = 1,
 	cost = 5,

@@ -1,11 +1,11 @@
 local jokerInfo = {
 	name = 'Depressed Brother',
+	dispname = '心碎老哥',
 	config = {},
 	text = {
-		"This Joker gains {C:chips}+13{} Chips",
-		"if played hand triggers",
-		"the {C:attention}Boss Blind{} ability",
-		"{C:inactive}(Currently {}{C:chips}+#1#{} {C:inactive}Chips){}",
+		"出牌触发了{C:attention}Boss盲注{}限制时",
+		"本牌获得{C:chips}+13{}筹码",
+		"{C:inactive}（当前为{C:chips}+#1#{C:inactive}筹码）"
 	},
 	rarity = 2,
 	cost = 5,

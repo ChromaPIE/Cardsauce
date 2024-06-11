@@ -257,8 +257,8 @@ function SMODS.INIT.Cardsauce()
 
 	-- SMODS.Spectral:new(name, slug, config, pos, loc_txt, cost, consumeable, discovered, atlas)
 	local c_quixotic = SMODS.Spectral:new('Quixotic', 'quixotic', { }, { x = 0, y = 0 }, {
-    	name = 'Quixotic',
-    	text = { 'Gain an {C:attention}Ethereal Tag' }
+    	name = '异想',
+    	text = { '生成一个{C:attention}空灵标签' }
 	}, 4, true, true, 'quixotic')
 	c_quixotic:register()
 	local sprite = SMODS.Sprite:new("quixotic", SMODS.findModByID("Cardsauce").path, "quixotic.png", 71, 95, "asset_atli")

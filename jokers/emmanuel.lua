@@ -1,10 +1,10 @@
 local jokerInfo = {
 	name = 'Emmanuel Blast',
+	dispname = '以马内力',
 	config = {},
 	text = {
-		"{C:green}#1# in 8{} chance to create",
-		"a {C:dark_edition}Negative Tag{} at",
-		"end of round",
+		"回合结束时有{C:green}#1#/8{}的几率",
+		"生成一个{C:dark_edition}负片标签"
 	},
 	rarity = 1,
 	cost = 4,

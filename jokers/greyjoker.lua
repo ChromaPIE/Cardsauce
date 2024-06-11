@@ -1,9 +1,10 @@
 local jokerInfo = {
 	name = 'Grey Joker',
+	dispname = '灰色小丑',
 	config = {},
 	text = {
-		"{C:mult}+#1#{} discards, but must",
-		"discard 5 cards {C:attention}at a time{}"
+		"{C:mult}+#1#{}弃牌次数",
+		"但每次弃牌必须{C:attention}满5张"
 	},
 	rarity = 2,
 	cost = 6,
