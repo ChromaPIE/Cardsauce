@@ -6,7 +6,6 @@ local jokerInfo = {
 		"选择{C:attention}盲注{}时",
 		"生成一张{C:purple}审判",
 		"{C:inactive}（必须有空位）"
-		--todo: add judgement side text
 	},
 	rarity = 1,
 	cost = 6,

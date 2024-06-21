@@ -13,13 +13,11 @@ https://docs.google.com/spreadsheets/d/1EhX1TviLLW4z4-KLvTPBau5FKBrjF7w6nNXOoNjI
 
 NEED HELP WITH:
 
--SOUNDS AND MUSIC NOT WORKING
-
--Motorcyclist Joker picking most-played hand at start of round not end
+-Shrimp Joker retriggering Blue Seal card enhancements
 
 -Transformation timing on Two-Faced Joker
 
--Make SPEEEN's pop-ups stack properly
+-Make SPEEEN's pop-up work with Oops! All 6s
 
 -Speed Joker and Disturbed Joker
 
@@ -29,7 +27,7 @@ NEED HELP WITH:
 
 -Disable Interest for Vinesauce is Hope
 
--Make Pepperoni Secret mod-friendly by calling the hand's starting visibility
+-Make Pepperoni Secret mod-friendly by calling the hand's starting visibility (is this possible?)
 
 -Add the compatible button for Green Needle
 
@@ -48,6 +46,10 @@ Coding:
 -Nether
 
 -Mysthaps
+
+Sound API:
+
+-Infarcactus
 
 Support:
 
